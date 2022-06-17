@@ -3,9 +3,11 @@ import './Home.css'
 const Home = () => {
     return (
         <div className='home'>
-            <h4>
-                You Select <span>We Collect!!!!</span>
-            </h4>
+            <h1>
+                You Select <br />
+                We Collect!!!!
+            </h1>
+            
         </div>
     );
 };
