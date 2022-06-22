@@ -1,10 +1,10 @@
 # PRODUCT-REVIEW
-[title](dlffklj)
+[title](https://grand-daifuku-071631.netlify.app/)
 
 
->First I have created navBar
->Then created home page
->Make review data, show them and connect with button
->Rechart added On Dashboard
->Readme file edit
->at lat deploy on netlify
+1.First I have created navBar
+2.Then created home page
+3.Make review data, show them and connect with button
+4.Rechart added On Dashboard
+5.Readme file edit
+6.at lat deploy on netlify
