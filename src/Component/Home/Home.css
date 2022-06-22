@@ -1,17 +1,17 @@
+.homeWrapper{
+    padding: 0px 80px;
+}
 .home{
     display: flex;
     justify-content: center;
     padding-top: 64px;
-    padding-right: 80px;
-    padding-left: 80px;
     gap: 32px;
     
 
 }
 .home .description{
+    width: 65%;
     
-    border-radius: 16px;
-    width: 400px;
 }
 
 .home .description h1{
@@ -33,6 +33,11 @@
 .home .img{
     
     border-radius: 16px;
-    width: 400px;
+    width: 45%;
 
+}
+
+.reviewContainer{
+    border: 2px solid gray;
+    
 }

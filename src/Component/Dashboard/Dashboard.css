@@ -1,0 +1,11 @@
+
+
+.chart .h2{
+    align-items: center;
+
+}
+
+.chartWrapper{
+    display: flex;
+    padding-top: 64px;
+        }
