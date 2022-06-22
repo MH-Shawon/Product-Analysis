@@ -4,97 +4,46 @@ import { Legend, Pie, PieChart, PolarAngleAxis, PolarGrid, PolarRadiusAxis, Rada
 
 const DashBoard = () => {
 
-    const data01 = [
-        {
-          "name": "Group A",
-          "value": 400
-        },
-        {
-          "name": "Group B",
-          "value": 300
-        },
-        {
-          "name": "Group C",
-          "value": 300
-        },
-        {
-          "name": "Group D",
-          "value": 200
-        },
-        {
-          "name": "Group E",
-          "value": 278
-        },
-        {
-          "name": "Group F",
-          "value": 189
-        }
-      ];
-      const data02 = [
-        {
-          "name": "Group A",
-          "value": 2400
-        },
-        {
-          "name": "Group B",
-          "value": 4567
-        },
-        {
-          "name": "Group C",
-          "value": 1398
-        },
-        {
-          "name": "Group D",
-          "value": 9800
-        },
-        {
-          "name": "Group E",
-          "value": 3908
-        },
-        {
-          "name": "Group F",
-          "value": 4800
-        }
-      ];
+    
 
-      const data = [
+      const data =[
         {
-          "subject": "Math",
-          "A": 120,
-          "B": 110,
-          "fullMark": 150
+            "month": "Mar",
+            "investment": 100000,
+            "sell": 241,
+            "revenue": 10401
         },
         {
-          "subject": "Chinese",
-          "A": 98,
-          "B": 130,
-          "fullMark": 150
+            "month": "Apr",
+            "investment": 200000,
+            "sell": 423,
+            "revenue": 24500
         },
         {
-          "subject": "English",
-          "A": 86,
-          "B": 130,
-          "fullMark": 150
+            "month": "May",
+            "investment": 500000,
+            "sell": 726,
+            "revenue": 67010
         },
         {
-          "subject": "Geography",
-          "A": 99,
-          "B": 100,
-          "fullMark": 150
+            "month": "Jun",
+            "investment": 500000,
+            "sell": 529,
+            "revenue": 40405
         },
         {
-          "subject": "Physics",
-          "A": 85,
-          "B": 90,
-          "fullMark": 150
+            "month": "Jul",
+            "investment": 600000,
+            "sell": 601,
+            "revenue": 50900
         },
         {
-          "subject": "History",
-          "A": 65,
-          "B": 85,
-          "fullMark": 150
+            "month": "Aug",
+            "investment": 700000,
+            "sell": 670,
+            "revenue": 61000
         }
-      ];
+    ];
 
     return (        
         <div className='chart'>
@@ -103,8 +52,8 @@ const DashBoard = () => {
             <div>
                 <h4>Pie-chart</h4>
             <PieChart width={730} height={270}>
-                <Pie data={data01} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#8884d8"></Pie>
-                <Pie data={data02} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label></Pie>
+                <Pie data={data} dataKey="month" nameKey="investment" cx="50%" cy="50%" outerRadius={50} fill="#8884d8"></Pie>
+                <Pie data={data} dataKey="sell" nameKey="revenue" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label></Pie>
             </PieChart>
             </div>
 
