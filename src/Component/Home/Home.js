@@ -6,7 +6,7 @@ import useReviews from '../../hooks/useReviews';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-    const [review, setReviews] = useReviews();
+    const [review, ] = useReviews();
     return (
         <div className='homeWrapper'>
             <div className='home'>
